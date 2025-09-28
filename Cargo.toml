@@ -59,7 +59,7 @@ embassy-sync = "0.7"
 embassy-time = "0.4"
 embedded-io = "0.6"
 scopeguard = { version = "1", default-features = false }
-rs-matter-stack = { path = "../../rs-matter-stack/", features = ["rustcrypto"] }
+rs-matter-stack = { git = "https://github.com/H1ghBre4k3r/rs-matter-stack.git", rev = "d880c987978d3a891e5707f2b45a3809283cd8a6", features = ["rustcrypto", "log"] }
 static_cell = "2"
 
 embedded-storage-async = "0.4.1"
